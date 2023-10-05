@@ -1,3 +1,8 @@
+---
+title: 本地复现 TCResNet8 模型的训练算法
+date: 2023-10-05 01:00:00
+---
+
 ### 本地复现 TCResNet8 模型的训练算法
 
 0. 引用
@@ -67,7 +72,7 @@
 
    打开`TCResNet8Model-1.0_mfcc_40_3010_0.001_mom_l1.sh`
 
-   ![1-1](pic\1-1.PNG)
+   ![1-1](/pic/1-1.PNG)
 
    将 *dataset_path* 修改为split后的dataset所在路径。建议使用绝对路径。
 
