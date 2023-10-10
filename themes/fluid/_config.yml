@@ -1011,7 +1011,7 @@ links:
       title: "HKK's Diary",
       intro: "美好回忆中毒症。",
       link: "https://ihkk.net/",
-      avatar: "/img/HKK's_Proflie.jpg"
+      avatar: "/img/HKK's_Profile.jpg"
     }
 
   # 当成员头像加载失败时，替换为指定图片
