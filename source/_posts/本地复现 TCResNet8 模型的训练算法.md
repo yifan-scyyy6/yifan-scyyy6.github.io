@@ -5,7 +5,7 @@ date: 2023-10-05 01:00:00
 
 ### 本地复现 TCResNet8 模型的训练算法
 
-#### 0. 引用
+#### 0. 模型来源
 
 文章标题：Temporal Convolution for Real-time Keyword Spotting on Mobile Devices
 
@@ -109,7 +109,7 @@ run:
 
 至此，得到`.pb` 与 `.tflite`两份文件，TCResNet8 模型训练部分算法复现结束。
 
-#### 3. 参考资料：
+#### 3. 参考资料
 
 [Generate pb file command is error · Issue #12 · hyperconnect/TC-ResNet (github.com)](https://github.com/hyperconnect/TC-ResNet/issues/12)
 
