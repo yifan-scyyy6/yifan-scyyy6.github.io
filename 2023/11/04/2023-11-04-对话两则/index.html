@@ -18,23 +18,21 @@
   <meta name="author" content="Yifan Yu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本地复现 TCResNet8 模型的训练算法0. 模型来源文章标题：Temporal Convolution for Real-time Keyword Spotting on Mobile Devices 项目地址：https:&#x2F;&#x2F;github.com&#x2F;hyperconnect&#x2F;TC-ResNet 1. 环境搭建项目中的Markdown文件已经写的较为清楚。这里再补充一点，因为原项目是在Linu">
+    <meta name="description" content="摘录两段在11月1日与邵琦的对话，很治愈我。他的回答里带着属于他的生活哲学。 ——生活态度 去年生日时候，邵琦送了我本摄影集 *”A cloud a day”*，于是我养成了时不时抬头记录天空的习惯。  余：UK这边，偶尔云还好看的。不过你那本书我倒没带过来，那时候怕在路上折损了。 邵：带没带倒无所谓。那本书主要给我一种感觉，要关注平常生活中的美感。比较喜欢的一种生活态度。 邵：这样生活会多很多乐">
 <meta property="og:type" content="article">
-<meta property="og:title" content="本地复现 TCResNet8 模型的训练算法">
-<meta property="og:url" content="https://yifan-scyyy6.github.io/2023/10/05/%E6%9C%AC%E5%9C%B0%E5%A4%8D%E7%8E%B0%20TCResNet8%20%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AE%AD%E7%BB%83%E7%AE%97%E6%B3%95/index.html">
+<meta property="og:title" content="对话两则20231104">
+<meta property="og:url" content="https://yifan-scyyy6.github.io/2023/11/04/2023-11-04-%E5%AF%B9%E8%AF%9D%E4%B8%A4%E5%88%99/index.html">
 <meta property="og:site_name" content="Yifan&#39;s Notes">
-<meta property="og:description" content="本地复现 TCResNet8 模型的训练算法0. 模型来源文章标题：Temporal Convolution for Real-time Keyword Spotting on Mobile Devices 项目地址：https:&#x2F;&#x2F;github.com&#x2F;hyperconnect&#x2F;TC-ResNet 1. 环境搭建项目中的Markdown文件已经写的较为清楚。这里再补充一点，因为原项目是在Linu">
+<meta property="og:description" content="摘录两段在11月1日与邵琦的对话，很治愈我。他的回答里带着属于他的生活哲学。 ——生活态度 去年生日时候，邵琦送了我本摄影集 *”A cloud a day”*，于是我养成了时不时抬头记录天空的习惯。  余：UK这边，偶尔云还好看的。不过你那本书我倒没带过来，那时候怕在路上折损了。 邵：带没带倒无所谓。那本书主要给我一种感觉，要关注平常生活中的美感。比较喜欢的一种生活态度。 邵：这样生活会多很多乐">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://yifan-scyyy6.github.io/img/1-1.PNG">
-<meta property="article:published_time" content="2023-10-05T01:00:00.000Z">
+<meta property="article:published_time" content="2023-11-04T22:00:00.000Z">
 <meta property="article:modified_time" content="2023-11-05T00:10:14.624Z">
 <meta property="article:author" content="Yifan Yu">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://yifan-scyyy6.github.io/img/1-1.PNG">
   
   
   
-  <title>本地复现 TCResNet8 模型的训练算法 - Yifan&#39;s Notes</title>
+  <title>对话两则20231104 - Yifan&#39;s Notes</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">本地复现 TCResNet8 模型的训练算法</span>
+            <span id="subtitle">对话两则20231104</span>
           
         </div>
 
@@ -215,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-10-05 01:00" pubdate>
-          2023年10月5日 凌晨
+        <time datetime="2023-11-04 22:00" pubdate>
+          2023年11月4日 晚上
         </time>
       </span>
     
@@ -227,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.2k 字
+          554 字
         
       </span>
     
@@ -238,7 +236,7 @@
         
         
         
-          27 分钟
+          5 分钟
         
       </span>
     
@@ -275,71 +273,40 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">本地复现 TCResNet8 模型的训练算法</h1>
+            <h1 id="seo-header">对话两则20231104</h1>
             
             
               <div class="markdown-body">
                 
-                <h3 id="本地复现-TCResNet8-模型的训练算法"><a href="#本地复现-TCResNet8-模型的训练算法" class="headerlink" title="本地复现 TCResNet8 模型的训练算法"></a>本地复现 TCResNet8 模型的训练算法</h3><h4 id="0-模型来源"><a href="#0-模型来源" class="headerlink" title="0. 模型来源"></a>0. 模型来源</h4><p>文章标题：Temporal Convolution for Real-time Keyword Spotting on Mobile Devices</p>
-<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/hyperconnect/TC-ResNet">https://github.com/hyperconnect/TC-ResNet</a></p>
-<h4 id="1-环境搭建"><a href="#1-环境搭建" class="headerlink" title="1. 环境搭建"></a>1. 环境搭建</h4><p>项目中的Markdown文件已经写的较为清楚。这里再补充一点，因为原项目是在Linux系统下运行的，使用Windows系统的用户，建议先安装 Windows Subsystem for Linux (WSL)，再在Linux下运行本项目。</p>
-<p>否则可能出现如下警告：</p>
+                <p>摘录两段在11月1日与邵琦的对话，很治愈我。他的回答里带着属于他的生活哲学。</p>
+<p>——生活态度</p>
+<p>去年生日时候，邵琦送了我本摄影集 *”A cloud a day”*，于是我养成了时不时抬头记录天空的习惯。</p>
 <blockquote>
-<p>WSL is not installed, so could not detect WSL profiles.</p>
+<p>余：UK这边，偶尔云还好看的。不过你那本书我倒没带过来，那时候怕在路上折损了。</p>
+<p>邵：带没带倒无所谓。那本书主要给我一种感觉，要关注平常生活中的美感。比较喜欢的一种生活态度。</p>
+<p>邵：这样生活会多很多乐趣。</p>
 </blockquote>
-<p>WSL安装教程（Microsoft官方）：<a target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a></p>
-<h4 id="2-调试运行"><a href="#2-调试运行" class="headerlink" title="2. 调试运行"></a>2. 调试运行</h4><p>调试步骤在Markdown文件内已经写的较为清楚。这里补充一些细节并修正一些错误。</p>
-<h5 id="2-1-To-train-TCResNet8Model-1-0-model"><a href="#2-1-To-train-TCResNet8Model-1-0-model" class="headerlink" title="2.1 To train TCResNet8Model-1.0 model"></a>2.1 To train TCResNet8Model-1.0 model</h5><p>run:</p>
+<p>——友谊</p>
 <blockquote>
-<p>.&#x2F;scripts&#x2F;commands&#x2F;TCResNet8Model-1.0_mfcc_40_3010_0.001_mom_l1.sh</p>
+<p>余：突然意识到，事实上一个人与他的朋友连续着共同度过的时间是非常短暂的。即使是高中同学也就三年，大学同学可能更难会超过这个时长。</p>
+<p>余：所以人们依赖什么维持联系呢？</p>
+<p>邵：我觉得吧，依靠着意识。就是朋友啊，即使长时间没碰面，还是会成为朋友的。</p>
+<p>邵：每次的久别重逢都是一次新的交朋友的过程。</p>
 </blockquote>
-<p>在执行此指令之前，需要将所用的dataset下载到 <code>TC-ResNet</code> 文件夹下。并执行split此dataset的.sh文件。</p>
+<p>几天后，听到一段歌词。</p>
 <blockquote>
-<p>.&#x2F;speech_commands_dataset&#x2F;download_and_split.sh</p>
+<p>莫说天无涯，海无岸，</p>
+<p>纵然归程须万载。</p>
+<p>今日归来不晚，</p>
+<p>与故人重来，天真作少年。</p>
+<p>——朴树《在木星》</p>
 </blockquote>
-<p>有可能因为权限不够出现报错：</p>
-<blockquote>
-<p>Permission denied</p>
-</blockquote>
-<p>可以输入如下指令获取权限后再次执行：</p>
-<blockquote>
-<p>sudo chmod -R 777 *</p>
-<p>-R 所执行目录下的所有子目录与文件</p>
-<p>777 给予用户最高权限</p>
-<p>* 指定执行目录，*为执行当前路径</p>
-</blockquote>
-<p>若成功执行本节（2.1）开头的指令，即开始训练模型。</p>
-<p>关于训练模式，在论文3.1节中的Training部分有详细介绍。</p>
-<p>简述：共30k循环，每0.5k次记录一次performance。</p>
-<p>可能出现如下报错：</p>
-<blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python">Traceback (most recent call last):<br>  File <span class="hljs-string">&quot;evaluate_audio.py&quot;</span>, line <span class="hljs-number">87</span>, <span class="hljs-keyword">in</span> &lt;module&gt;<br>  	main(args)<br>  File <span class="hljs-string">&quot;evaluate_audio.py&quot;</span>, line <span class="hljs-number">28</span>, <span class="hljs-keyword">in</span> main<br>  	is_training,<br>  File <span class="hljs-string">&quot;/home/yifan/TC-ResNet/datasets/audio_data_wrapper.py&quot;</span>, line <span class="hljs-number">15</span>, <span class="hljs-keyword">in</span> \__init__<br>  	self.setup()<br>  File <span class="hljs-string">&quot;/home/yifan/TC-ResNet/datasets/audio_data_wrapper.py&quot;</span>, line <span class="hljs-number">126</span>, <span class="hljs-keyword">in</span> setup<br>  	<span class="hljs-keyword">assert</span> self.args.num_classes == self.num_labels<br>AssertionError<br></code></pre></td></tr></table></figure>
-</blockquote>
-<p>此处提示dataset的label数量与模型输出的分类数不一致，由dataset路径错误导致。未能使程序正确找到dataset并获取其中的label信息。</p>
-<p>打开<code>TCResNet8Model-1.0_mfcc_40_3010_0.001_mom_l1.sh</code></p>
-<p><img src="/img/1-1.PNG" srcset="/img/loading.gif" lazyload alt="1-1"></p>
-<p>将 <em>dataset_path</em> 修改为split后的dataset所在路径。建议使用绝对路径。</p>
-<h5 id="2-2-To-freeze-the-trained-model-checkpoint-into-pb-file"><a href="#2-2-To-freeze-the-trained-model-checkpoint-into-pb-file" class="headerlink" title="2.2 To freeze the trained model checkpoint into .pb file"></a>2.2 To freeze the trained model checkpoint into <code>.pb</code> file</h5><p>run:</p>
-<blockquote>
-<p>python freeze.py –checkpoint_path work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX –output_name output&#x2F;softmax –output_type softmax –preprocess_method no_preprocessing –height 49 –width 40 –channels 1 –num_classes 12 TCResNet8Model –width_multiplier 1.0</p>
-</blockquote>
-<p>此指令有误。直接运行会报错，提示缺少preprocess_method，height，width 和 channels 参数（事实上已传入）。</p>
-<p>修改如下：</p>
-<blockquote>
-<p>python freeze.py –num_classes 12 –checkpoint_path work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX –output_name softmax  –preprocess_method no_preprocessing –height 49 –width 40 –channels 1 TCResNet8Model –width_multiplier 1.0 </p>
-<p>XXX 输入产生该份数据的迭代次数（完整运行则为30000）</p>
-</blockquote>
-<h5 id="2-3-To-convert-the-pb-file-into-tflite-file"><a href="#2-3-To-convert-the-pb-file-into-tflite-file" class="headerlink" title="2.3 To convert the .pb file into .tflite file"></a>2.3 To convert the <code>.pb</code> file into <code>.tflite</code> file</h5><p>run:</p>
-<blockquote>
-<p>tflite_convert –graph_def_file&#x3D;work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX.pb –input_format&#x3D;TENSORFLOW_GRAPHDEF –output_format&#x3D;TFLITE –output_file&#x3D;work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX.tflite –inference_type&#x3D;FLOAT –inference_input_type&#x3D;FLOAT –input_arrays&#x3D;input –output_arrays&#x3D;output&#x2F;softmax –allow_custom_ops</p>
-</blockquote>
-<p>同样改句指令也有误，修改为：</p>
-<blockquote>
-<p>tflite_convert –graph_def_file&#x3D;work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX.pb –input_format&#x3D;TENSORFLOW_GRAPHDEF –output_format&#x3D;TFLITE –output_file&#x3D;work&#x2F;v1&#x2F;TCResNet8Model-1.0&#x2F;mfcc_40_3010_0.001_mom_l1&#x2F;TCResNet8Model-XXX.tflite –inference_type&#x3D;FLOAT –inference_input_type&#x3D;FLOAT –input_arrays&#x3D;input –output_arrays&#x3D;softmax –allow_custom_ops</p>
-<p>XXX 输入产生该份数据的迭代次数（完整运行则为30000）</p>
-</blockquote>
-<p>至此，得到<code>.pb</code> 与 <code>.tflite</code>两份文件，TCResNet8 模型训练部分算法复现结束。</p>
-<h4 id="3-参考资料"><a href="#3-参考资料" class="headerlink" title="3. 参考资料"></a>3. 参考资料</h4><p><a target="_blank" rel="noopener" href="https://github.com/hyperconnect/TC-ResNet/issues/12">Generate pb file command is error · Issue #12 · hyperconnect&#x2F;TC-ResNet (github.com)</a></p>
+<p>瞬间回想到邵琦的那句：“每次的久别重逢都是一次新的交朋友的过程。”</p>
+<p>如此巧妙地呼应让我愣了半晌。</p>
+<p>都是治愈人心的生活哲学。</p>
+<p>歌曲的链接附在最后，选了个人更喜欢的Live版：</p>
+<p>在木星 (Live版) - 朴树 猎户星座·专场</p>
+<p><a target="_blank" rel="noopener" href="http://music.163.com/song?id=553546154&userid=324644800">http://music.163.com/song?id=553546154&amp;userid=324644800</a></p>
 
                 
               </div>
@@ -357,8 +324,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>本地复现 TCResNet8 模型的训练算法</div>
-      <div>https://yifan-scyyy6.github.io/2023/10/05/本地复现 TCResNet8 模型的训练算法/</div>
+      <div>对话两则20231104</div>
+      <div>https://yifan-scyyy6.github.io/2023/11/04/2023-11-04-对话两则/</div>
     </div>
     <div class="license-meta">
       
@@ -370,7 +337,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年10月5日</div>
+          <div>2023年11月4日</div>
         </div>
       
       
@@ -402,18 +369,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/10/09/%E5%8D%97%E4%BA%AC20221002/" title="南京20221002">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">南京20221002</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/10/04/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/" title="关于博客">
-                        <span class="hidden-mobile">关于博客</span>
+                      <a href="/2023/10/25/2023-10-25-%E9%9A%8F%E8%AE%B0%E4%B8%A4%E5%88%99/" title="随记两则20231025">
+                        <span class="hidden-mobile">随记两则20231025</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
