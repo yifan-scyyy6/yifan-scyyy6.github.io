@@ -18,21 +18,21 @@
   <meta name="author" content="Yifan Yu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Validate a simplified TC-ResNet8 modelThis model is a simplified version of TC-ResNet8 by applying Quantization-Aware Training technique, which is tested on a specofic  dataset (Lege dataset). Resourc">
+    <meta name="description" content="状态好些了，十二月前两周写了不少随笔。按时间顺序排列，第一与第四篇是对个人心态和生活问题的一些思考，第二和第三篇记录了在Nottingham碰到到的有趣的人和事。 随便写些什么，好让我觉得生活没有平白无故的溜走。  2023.12.03去年我还能写下“既然coursework没有思路，那就出去玩一个下午吧。”这样洒脱的话。怎么今年却会单为了几个coursework发愁，这应该是学业当中最为普通的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Validate a simplified TC-ResNet8 model">
-<meta property="og:url" content="https://yifan-scyyy6.github.io/2023/12/20/run_simplified_ResNet_Model/index.html">
+<meta property="og:title" content="12月前半月随笔合集">
+<meta property="og:url" content="https://yifan-scyyy6.github.io/2024/01/11/2023-12-13-12%E6%9C%88%E5%89%8D%E5%8D%8A%E6%9C%88%E9%9A%8F%E7%AC%94%E5%90%88%E9%9B%86/index.html">
 <meta property="og:site_name" content="Yifan&#39;s Notes">
-<meta property="og:description" content="Validate a simplified TC-ResNet8 modelThis model is a simplified version of TC-ResNet8 by applying Quantization-Aware Training technique, which is tested on a specofic  dataset (Lege dataset). Resourc">
+<meta property="og:description" content="状态好些了，十二月前两周写了不少随笔。按时间顺序排列，第一与第四篇是对个人心态和生活问题的一些思考，第二和第三篇记录了在Nottingham碰到到的有趣的人和事。 随便写些什么，好让我觉得生活没有平白无故的溜走。  2023.12.03去年我还能写下“既然coursework没有思路，那就出去玩一个下午吧。”这样洒脱的话。怎么今年却会单为了几个coursework发愁，这应该是学业当中最为普通的">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-12-20T10:00:00.000Z">
-<meta property="article:modified_time" content="2024-01-11T23:33:46.763Z">
+<meta property="article:published_time" content="2024-01-11T23:33:46.759Z">
+<meta property="article:modified_time" content="2024-01-11T23:33:46.759Z">
 <meta property="article:author" content="Yifan Yu">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Validate a simplified TC-ResNet8 model - Yifan&#39;s Notes</title>
+  <title>12月前半月随笔合集 - Yifan&#39;s Notes</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Validate a simplified TC-ResNet8 model</span>
+            <span id="subtitle">12月前半月随笔合集</span>
           
         </div>
 
@@ -213,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-12-20 10:00" pubdate>
-          2023年12月20日 上午
+        <time datetime="2024-01-11 23:33" pubdate>
+          2024年1月11日 晚上
         </time>
       </span>
     
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.9k 字
+          2.2k 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          17 分钟
+          18 分钟
         
       </span>
     
@@ -273,46 +273,41 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Validate a simplified TC-ResNet8 model</h1>
+            <h1 id="seo-header">12月前半月随笔合集</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="Validate-a-simplified-TC-ResNet8-model"><a href="#Validate-a-simplified-TC-ResNet8-model" class="headerlink" title="Validate a simplified TC-ResNet8 model"></a>Validate a simplified TC-ResNet8 model</h2><p>This model is a simplified version of TC-ResNet8 by applying Quantization-Aware Training technique, which is tested on a specofic  dataset (Lege dataset).</p>
-<h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><p>source code: <a target="_blank" rel="noopener" href="https://github.com/KokyoK/Lege_KWS_customize">https://github.com/KokyoK/Lege_KWS_customize</a></p>
-<p>dataset: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1qaQ8wHKT9aHe09IcOZnvDSRE34swLuX7/view?usp=sharing">https://drive.google.com/file/d/1qaQ8wHKT9aHe09IcOZnvDSRE34swLuX7/view?usp=sharing</a></p>
-<h3 id="Platform-Selection"><a href="#Platform-Selection" class="headerlink" title="Platform Selection"></a>Platform Selection</h3><p>I choose to train this model by using CoLab, a public server offered by Google.</p>
-<p>Here is a <a href="colab_note.md">brief guidance of CoLab</a> which is written by myself.</p>
-<h3 id="Runtime-Environment-Configuration"><a href="#Runtime-Environment-Configuration" class="headerlink" title="Runtime Environment Configuration"></a>Runtime Environment Configuration</h3><p>Clone the source code to your Google drive.</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git clone https://github.com/KokyoK/Lege_KWS_customize<br></code></pre></td></tr></table></figure>
-
-<p>Change direction to target folder.</p>
-<p>There are some dependency conflicts, to solve this problem, we should not restrict to the version of torchvision package.</p>
-<p>Then run following command to install packages.</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pip3 install -r requirements.txt<br></code></pre></td></tr></table></figure>
-
-<p>If you meet any problem, please refer to next section.</p>
-<h3 id="Possible-Problems"><a href="#Possible-Problems" class="headerlink" title="Possible Problems"></a>Possible Problems</h3><p>You may get an error message when you install packages: </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">ERROR: Failed building wheel <span class="hljs-keyword">for</span> pyaudio<br></code></pre></td></tr></table></figure>
-
-<p>To solve it, you need to install pyaudio package manually.</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get install portaudio19-dev<br>pip install pyaudio<br></code></pre></td></tr></table></figure>
-
-<h3 id="Run-Program"><a href="#Run-Program" class="headerlink" title="Run Program"></a>Run Program</h3><ol>
-<li><p>Create <code>dataset</code> and <code>saved_model </code>directories.</p>
-</li>
-<li><p>unzip the dataset in <code>dataset</code> folder.</p>
-</li>
-<li><p>To save the training data for evaluate the training progress, add following codes in <code>utility.py</code>.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> csv<br><br><span class="hljs-comment">#write training data to csv</span><br>data_write = [epoch, train_accuracy, train_loss, valid_accuracy,  valid_loss]<br>filename = <span class="hljs-string">&quot;train_data.csv&quot;</span><br><br><span class="hljs-keyword">with</span> <span class="hljs-built_in">open</span>(filename, <span class="hljs-string">&#x27;a&#x27;</span>, newline=<span class="hljs-string">&#x27;&#x27;</span>) <span class="hljs-keyword">as</span> file:<br>	writer = csv.writer(file)<br>    writer.writerow(data_write)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Data successfully written to <span class="hljs-subst">&#123;filename&#125;</span>&quot;</span>)<br></code></pre></td></tr></table></figure></li>
-<li><p>Run following command:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">python3 nn_main.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h3 id="Current-Problem"><a href="#Current-Problem" class="headerlink" title="Current Problem"></a>Current Problem</h3><p>The training process on GPU is quite time-comsuming, it takes approximately 2.5 hours to run 280 epochs (500 in total).</p>
-<p>Need to check whether it really uses GPU to train, and think how to improve training efficiency.</p>
-<h3 id="Result-Analysis"><a href="#Result-Analysis" class="headerlink" title="Result Analysis"></a>Result Analysis</h3><p>This part will add soon.</p>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/49223985/errors-installing-pyaudio-failed-building-wheel-for-pyaudio">https://stackoverflow.com/questions/49223985/errors-installing-pyaudio-failed-building-wheel-for-pyaudio</a></p>
-<p><a target="_blank" rel="noopener" href="https://github.com/ardha27/AI-Waifu-Vtuber/issues/49">https://github.com/ardha27/AI-Waifu-Vtuber/issues/49</a></p>
+                <blockquote>
+<p>状态好些了，十二月前两周写了不少随笔。按时间顺序排列，第一与第四篇是对个人心态和生活问题的一些思考，第二和第三篇记录了在Nottingham碰到到的有趣的人和事。</p>
+<p>随便写些什么，好让我觉得生活没有平白无故的溜走。</p>
+</blockquote>
+<h4 id="2023-12-03"><a href="#2023-12-03" class="headerlink" title="2023.12.03"></a>2023.12.03</h4><p>去年我还能写下“既然coursework没有思路，那就出去玩一个下午吧。”这样洒脱的话。怎么今年却会单为了几个coursework发愁，这应该是学业当中最为普通的部分。</p>
+<p>感觉自己的心态远不如去年。进一步讲，乐观面对生活的能力似乎在减退，但对此束手无策。并不是我有多不满当前的生活，我觉得不错，只是没什么生活热情可言。</p>
+<p>生活被学业压力撕扯着，我却毫无抵抗之力。不想沦落为nerd，却对如何实现study life balance感到不知所措。</p>
+<p>希望能尽快找到调整心态的方式。大概生活就是为了解决困难的，总会好的，暂且这么劝慰自己吧。</p>
+<h4 id="2023-12-05"><a href="#2023-12-05" class="headerlink" title="2023.12.05"></a>2023.12.05</h4><p>今天去小朱去Lidl买食品，披萨和面包的打折券没刷成功。收银的工作人员搞了半天搞不定，然后去摇人，经理过来搞了半天还是搞不定。</p>
+<p>然后店长灵机一动，删了两个面包，说：“这样子就想等于有打折的效果了吧哈哈。”我俩在那愣住了，这方法未免过于潇洒。然后速算了一下发现还赚了0.47镑…好，谢谢经理。</p>
+<p>感叹一下这个处理方法很British：只要能解决问题让你满意，方法是否合理什么的完全不重要（当然也许他们看起来就是很合理的）。</p>
+<p>附上今天好看的天空和好吃的面包。插一句，面包这玩意还得是法国品种好吃啊。</p>
+<p>（这儿的图之后再补上）</p>
+<h4 id="2023-12-08"><a href="#2023-12-08" class="headerlink" title="2023.12.08"></a>2023.12.08</h4><p>这两天在写项目中期报告。挺多有意思的事情。</p>
+<p>这边小组作业的时候，很喜欢pair work（两个人一起负责一个部分），两个人分别写某几段然后交换检查，最后修改链接句增加coherent（大致等于行文连贯的意思）。</p>
+<p>而且很强调同时进行工作。我一开始跟Tom（同事）说：“我这两天有空，可以先写一部分到时候发你，帮我优化一下。”Tom：“啊呀不用心急，到时候咱一起写，这两天你空的话多出去玩玩呗，市中心的圣诞集市挺棒的。”很标准的英式悠闲。</p>
+<p>今天早上写报告的时候，Tom大哥一边写还一边跟我唠嗑，感觉自己大脑不能同时处理两项外语进程。只能“uh-huh, yeah, grate… ”当个捧哏。最后实在扛不住了，跟大哥坦白了一下我暂时很难同时处理外语的多任务。大哥：“哦抱歉我疏忽了，那就等你写完再唠嗑。”然后…他就开始哼起了小曲，别说唱的还挺好听的。</p>
+<p>这大哥平时沉默的要死，上课从来独来独往，走路上碰到最多跟你打个招呼就管自己继续走了。没想到私下里这么欢脱，很符合我对标准英格兰人的刻板印象——闷骚。</p>
+<p>说回写作本身，这两天最大的感受是，他们native speaker的同义替换是真的厉害。我写完一段以后Tom帮我检查，基本上都是词语的替换。很多词&#x2F;词组意思很简单，拼写也不难，但是我就是没见过。还好语法和逻辑上暂时没有太大的问题。</p>
+<p>有个比较意外的发现是，他们（local）反而不太写从句，至少我们组里目前观察到的三位British都是如此（不确定是否有偶然性）。</p>
+<p>想来自己也学了十多年英语了，词汇量也不算太少了。来这边待了一小段时间，感觉他们（local）实际用的英语和我们学的还是有很大的差距，包括词汇的丰富程度，短语的使用等，我们用词的“准确性”还差的远。</p>
+<p>感觉到还有很长的路要走。暂时说到这吧，继续写报告去了。</p>
+<h4 id="2023-12-12"><a href="#2023-12-12" class="headerlink" title="2023.12.12"></a>2023.12.12</h4><p>偶然翻到手机里的去年今日，凌晨两点从IEB楼回去。</p>
+<p>当时在忙什么已经记不清了，或许也是某个coursework吧。应该是第一次这么晚从办公室回去，于是拍照留念。备忘录里的这张照片下还留有一句话：“明年今日的我会如何看待这一天呢？生活能如愿吗？”</p>
+<p>揣测下当时的心境，或许当时最大的愿望就是大三能去英诺就读吧。当然我会感谢一年前那个为了去交换而为coursework花下大量时间的自己。也会略带遗憾的说，生活是可能会如愿的，但不一定是令人满意的。</p>
+<p>明明都已经如愿了，又何来“不满意一说？看起来多少有点“得了便宜还卖乖”之嫌。不妨转换为讨论一个略显矛盾的问题：“我所要实现的好的生活，是我想要的生活吗？是我一直会满意的生活吗？”</p>
+<p>如愿不过是在一瞬间达到了某个“愿”，得到了某些期许已久的东西。而那之后的生活，在这个所谓的“愿”带来的长期影响里，是否能一直如自己所想的那样发展下去，其结果往往不尽人意。</p>
+<p>关于我的交换生留学生活，我确实在得到它以前无比憧憬着可能发生的一切。而在机会到手后，内心的犹豫或是挣扎又开始折磨着我。在我真的开始经历英国这边的课程后，我认为这会是一次值得的经历。在我面对着三四个任务却毫无头绪，还无从排解压力的时候，我又开始怀疑自己。</p>
+<p>前段时间，一位同学在我的某条内容下留言：“或许苦难才是常态，所以遇到一点光亮就足够值得感激了。”也许对于生活而言，不满意才是常态，如果生活中能有几个令自己满意的瞬间，那就就足够了。由此想，没有“一直满意”的生活，也没有生活值得被太高的期待。</p>
+<p>回到最初备忘录的写下的问题：生活是能如愿的，但也许但就一次如愿而言，并不会影响太多，就不要抱太高的期待，即使偶尔失败了也没关系。这听起来有点像所谓的“鸡汤”，有点自欺欺人。可是生活已经如此，偶尔的自我麻痹也能是一种保护吧。</p>
 
                 
               </div>
@@ -330,8 +325,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Validate a simplified TC-ResNet8 model</div>
-      <div>https://yifan-scyyy6.github.io/2023/12/20/run_simplified_ResNet_Model/</div>
+      <div>12月前半月随笔合集</div>
+      <div>https://yifan-scyyy6.github.io/2024/01/11/2023-12-13-12月前半月随笔合集/</div>
     </div>
     <div class="license-meta">
       
@@ -343,7 +338,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年12月20日</div>
+          <div>2024年1月11日</div>
         </div>
       
       
@@ -375,18 +370,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/12/20/colab_note/" title="CoLab Learning Note">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">CoLab Learning Note</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/12/16/webfx_learn/" title="Notes for learning to use WebFX on Windows">
-                        <span class="hidden-mobile">Notes for learning to use WebFX on Windows</span>
+                      <a href="/2024/01/11/memoir2023/" title="Memoir2023">
+                        <span class="hidden-mobile">Memoir2023</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
